@@ -3,7 +3,7 @@ This folder contains all of the current code for training the MDE-based models f
 
 
 **Current status:**
-There is code in place for generating representations, pretraining models on MLM, and finetuning on the compatibility and NSP tasks. There is code in place for checking the MDE representations and pretraining LM portions of the project, so that code is most likely solid. However, at the point of this handoff, there are no checks in place to validate the performance of the finetuned model on NSP and compatibility. 
+There is code in place for generating representations, pretraining models on MLM, and finetuning on the compatibility and NSP tasks. There is code in place for checking the MDE representations and pretraining LM portions of the project, so that code is most likely solid. However, at the point of this handoff, there are no checks in place to validate the performance of the finetuned model on NSP and compatibility. Additionally, there is a bug in the compatibility dataset code(described more in the compatibility notebook), so performance there might be impacted.
 
 
 **Notebooks:**
